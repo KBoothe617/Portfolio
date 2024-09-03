@@ -6,7 +6,7 @@ export default function AboutMe() {
     return (
         <section className="about-me">
             <div className="about-me__container">
-                <img className="about-me__photo" src="./Portfolio/src/assets/kaleb.jpg" alt="Kaleb Udy" />
+                <img className="about-me__photo" src="./assets/kaleb.jpg" alt="Kaleb Udy" />
                 <div className="about-me__text">
                     <h2 className="about-me__title">About Me</h2>
                     <p>My name is Kaleb Lee Boothe Udy. I am a fullstack webdevelopment student working to get my cetrificate in programing and webdevelopment. I was first introduced to the tech feild while attending Beehive Science and Technology Academy. During my time there I was on the FTC and FRC Robotics Teams, I worked on both the software and mechanical teams. </p>
