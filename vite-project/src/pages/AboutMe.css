@@ -3,11 +3,19 @@
     text-align: center;
 }
 
-/* about-me-content */
-.about-me-content {
+/* about-me-container */
+.about-me-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 600px;
     margin: 0 auto;
+}
+
+/* style for photo */
+.about-me-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
