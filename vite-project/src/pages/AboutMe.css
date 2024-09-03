@@ -19,3 +19,15 @@
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
+/* hover effect for photo */
+.about-me-photo:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* style for content */
+.about-me-text {
+    text-align: justify;
+    font-size: large;
+}
