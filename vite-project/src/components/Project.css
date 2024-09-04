@@ -1,0 +1,57 @@
+/* container for project cards */
+.project-container {
+    position: relative;
+    overflow: hidden;
+}
+
+/* style for project image */
+.project-image {
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+/* overlay for project title and github icon */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+/* hover effect for overlay */
+.project-container:hover .overlay {
+    opacity: 1;
+}
+
+/* project title */
+.project-title {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* title hover effect */
+.project-title:hover {
+    text-decoration: underline;
+}
+
+/* github link */
+.project-github {
+    color: white;
+    text-decoration: none;
+}
+
+/* github hovor */
+.project-github:hover {
+    text-decoration: underline;
+}
