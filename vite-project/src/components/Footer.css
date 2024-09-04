@@ -1,0 +1,21 @@
+/* style for footer component */
+.footer {
+  background-color: lightslategray;
+}
+
+/* style for social media icons */
+.linkedin,
+.github,
+.email {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    border-bottom: 2px solid transparent;
+}
+
+/* style for social media icons hover */
+.linkedin:hover,
+.github:hover,
+.email:hover {
+    border-bottom: 2px solid white;
+}
