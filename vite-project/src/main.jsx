@@ -7,7 +7,7 @@ import './App.css';
 import App from './App.jsx';
 import AboutMe from './pages/AboutMe.jsx';
 import Resume from './pages/Resume.jsx';
-import Contact from './pages/Contact.jsx';
+import Contact from './pages/Contact/Contact.jsx';
 import Portfolio from './pages/Portfolio.jsx';
 
 // Create a router with the App component as the root element linking to the AboutMe, Portfolio, Contact, and Resume components
