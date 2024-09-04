@@ -41,3 +41,56 @@
     height: 200px;
     display: block;
 }
+
+/* overlay for project title and github icon */
+.portfolio-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease, background-color 0.5s ease;
+}
+
+/* hover effect for overlay */
+.portfolio-container:hover .portfolio-overlay {
+    opacity: 1;
+}
+
+/* project title */
+.portfolio-title {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* title hover effect */
+.portfolio-title:hover {
+    text-decoration: underline;
+}
+
+/* github link */
+.portfolio-github {
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+}
+
+/* github link hover effect */
+.portfolio-github:hover {
+    border-bottom: 2px solid black;
+}
+
+/* images and texts inside overlay */
+.portfolio-overlay a {
+    margin: 0.5rem;
+}
