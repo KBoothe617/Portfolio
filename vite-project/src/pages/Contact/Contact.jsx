@@ -16,6 +16,7 @@ export default function Contact() {
 
     //state to store form submission status
     const [isSubmitting, setIsSubmitting] = useState(false);
+    console.log (isSubmitting);
 
     //handle input change
     const handleChange = (e) => {
