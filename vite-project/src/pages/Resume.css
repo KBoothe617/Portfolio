@@ -1,0 +1,22 @@
+/* style for page */
+.resume {
+    padding: 3rem;
+    background-color: grey;
+}
+
+
+/*style for h1 */
+.resume h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+/* button style */
+.resume-download button {
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
