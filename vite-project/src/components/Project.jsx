@@ -2,7 +2,10 @@ import './Project.css';
 
 // Project component to display project image, title, deployed link and github link
 
+import PropTypes from 'prop-types';
+
 export default function Project({ image, title, deployedLink, githubLink }) {
+    // Component code here
     return (
       <div className="project-container">
           <div className="project-image">
@@ -13,5 +16,12 @@ export default function Project({ image, title, deployedLink, githubLink }) {
               </div>
           </div>
       </div>
-    )
-  }
+    );
+}
+
+Project.propTypes = {
+    image: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    deployedLink: PropTypes.string.isRequired,
+    githubLink: PropTypes.string.isRequired
+};
